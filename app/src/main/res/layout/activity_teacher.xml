@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherActivity">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Enter Attendance"
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:onClick="fn"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Add New Student"
+        android:id="@+id/button2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="fn"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="30dp"
+        android:text="View Student details"
+        android:onClick="fn"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button"/>
+</RelativeLayout>

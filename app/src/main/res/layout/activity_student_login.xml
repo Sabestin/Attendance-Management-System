@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentLogin">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/editText3"
+        android:hint="Enter email address"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/editText3"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/signinButton"
+        android:layout_marginTop="77dp"
+        android:onClick="doOnClick"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button"/>
+
+
+    <TextView android:id="@+id/link_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        android:layout_below="@+id/signinButton"
+        android:text="Forget password?"
+        android:gravity="center"/>
+
+
+
+
+</RelativeLayout>

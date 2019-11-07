@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "619374385015",
+    "firebase_url": "https://siesattendance-640a9.firebaseio.com",
+    "project_id": "siesattendance-640a9",
+    "storage_bucket": "siesattendance-640a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619374385015:android:d1fe478dd62f5e17257372",
+        "android_client_info": {
+          "package_name": "com.example.siesattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619374385015-49b5s49frm9sf6rvrg3udn2rrj3cmep1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.siesattendance",
+            "certificate_hash": "16096e558f7589713b007aed95c455f80d00ed83"
+          }
+        },
+        {
+          "client_id": "619374385015-bh90g89q7fmlcp6am0n9llf917pbdfcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPzbgDmAnscuAtgCYgmlH0Ubbokj47YKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619374385015-bh90g89q7fmlcp6am0n9llf917pbdfcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

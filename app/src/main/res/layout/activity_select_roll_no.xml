@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectRollNo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Enter Roll No."
+        android:id="@+id/textView21"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/editText12"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/textView21"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="GET INFORMATION"
+        android:id="@+id/button7"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="fn"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button"/>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".HomeActivity">
+<Button
+    android:layout_width="400dp"
+    android:layout_height="80dp"
+    android:text="Teacher"
+    android:id="@+id/teacherButton"
+    android:layout_above="@+id/studentButton"
+    android:layout_marginBottom="40dp"
+    android:layout_centerHorizontal="true"
+    android:onClick="fn"
+    android:textSize="40dp"
+    android:textColor="#FFFFFF"
+    android:textAllCaps="false"
+    android:background="@drawable/custom_button"/>
+
+
+<Button
+    android:layout_width="400dp"
+    android:layout_height="80dp"
+    android:text="Student"
+    android:id="@+id/studentButton"
+    android:layout_marginBottom="41dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:onClick="fn"
+    android:textSize="40dp"
+    android:textColor="#FFFFFF"
+    android:textAllCaps="false"
+    android:background="@drawable/custom_button"/>
+
+
+</RelativeLayout>
